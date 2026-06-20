@@ -6,52 +6,52 @@
 </head>
 <body>
 
-<div class="letter">
-
 <h1>💌 A Letter For You</h1>
 
-<!-- ENVELOPE -->
-<div class="envelope" id="envelope">
+<div class="scene">
+  <div class="env-outer" id="env">
 
-    <div class="envelope-box">
-
-        <!-- FLAP -->
-        <div class="flap"></div>
-
-        <!-- SEAL / STAMP -->
-        <div class="seal">❤️</div>
-
-        <!-- FRONT LABEL -->
-        <div class="front">
-            Click to open 💌
+    <div class="letter" id="letter">
+      <div class="letter-content">
+        <div class="salutation">Maham Ali,</div>
+        <img src="images/kiss.jpg" alt="Special Photo" class="letter-photo">
+        <div class="body">
+          you are the kindest and warmest soul i've ever met.
+          Any bad day on which I talk to you becomes the best day
+          of my life. You are my other half — so generous, so kind,
+          so amazing, so cool. I admire the music you listen to,
+          the clothes you wear, the way you carry yourself,
+          and the way you handle daily life.
+          I promise to make you happy every single day.
         </div>
-
-        <!-- LETTER CONTENT -->
-        <div class="paper">
-
-            <div class="letter-photo">
-                <img src="images/kiss.jpg" alt="Special Photo">
-            </div>
-
-            <p id="message">
-                Maham Ali, you are the kindest and warmest soul ive met, any bad day on which I talk to you is now the best day of my life, you are my other half, I know this is a lot of heavy stuff to say, and it might be a lot, but you are genuinely so generous, so kind, so amazing, so cool, I admire the music you listen to, the clothes you wear, the way you carry yourself, the way you speak, and the way you handle daily life, I hope to make you happy every single day, and I promise you i will do my best to make sure i do
-            </p>
-
-        </div>
-
+        <div class="sign">with love 💕</div>
+      </div>
     </div>
 
+    <div class="env-body">
+      <div class="env-left"></div>
+      <div class="env-right"></div>
+      <div class="env-bottom"></div>
+      <div class="stamp">💌</div>
+    </div>
+
+    <div class="flap">
+      <div class="flap-face flap-front"></div>
+      <div class="flap-face flap-back"></div>
+    </div>
+
+    <div class="seal">❤️</div>
+
+  </div>
+
+  <div class="hint" id="hint">~ click to open ~</div>
 </div>
 
-<!-- NAV -->
-<div style="text-align:center;">
-    <a href="page3.html" class="btn">← Back</a>
-    <a href="page5.html" class="btn">Next →</a>
-</div>
-
+<div class="nav">
+  <a href="page3.html" class="btn">← Back</a>
+  <a href="page5.html" class="btn">Next →</a>
 </div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
